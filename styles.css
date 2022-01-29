@@ -40,6 +40,9 @@ img[src="https://upload.wikimedia.org/wikipedia/commons/thumb/b/b8/YouTube_Logo_
   display: flex;
   align-items: center;
 }
+.icons .material-icons:hover {
+  color: rgb(226, 33, 33);
+}
 
 .left #menu {
   padding: 0 7px;
