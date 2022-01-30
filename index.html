@@ -619,11 +619,13 @@
         </div>
       </div>
     </main>
-    <script type="script">
-      document.body.getElementByClassName('.mode').addEventListener("click",myFunction)
+    <script>
+      document.body
+        .getElementByClassName(".mode")
+        .addEventListener("click", myFunction);
 
-      function myFunction(){
-        document.getElementsByTagName('main').background = 'black'
+      function myFunction() {
+        document.getElementsByTagName("main").background = "black";
       }
     </script>
   </body>
