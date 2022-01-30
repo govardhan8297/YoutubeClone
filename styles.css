@@ -52,10 +52,6 @@ img[src="https://upload.wikimedia.org/wikipedia/commons/thumb/b/b8/YouTube_Logo_
 .search {
   display: flex;
 }
-.mode:hover main {
-  background-color: black;
-}
-
 .search form {
   display: flex;
   border: 1px solid #ddd;
