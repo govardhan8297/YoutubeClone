@@ -33,7 +33,9 @@
       </div>
 
       <div class="icons right">
-        <i class="material-icons mode">toggle_off</i>
+        <i class="material-icons mode" id="side-bar" onclick="myFunction()"
+          >toggle_off</i
+        >
         <i class="material-icons">videocam</i>
         <i class="material-icons">apps</i>
         <i class="material-icons">notifications</i>
@@ -620,12 +622,8 @@
       </div>
     </main>
     <script>
-      document
-        .getElementByClassName(".mode")
-        .addEventListener("click", myFunction);
-
       function myFunction() {
-        document.getElementsByTagName("main").style.backgroundColor = "black";
+        document.getElementsByClassName("mode").style.backgroundColor = "black";
       }
     </script>
   </body>
