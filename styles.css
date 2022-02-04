@@ -199,7 +199,7 @@ span {
   .search {
     display: none;
   }
-  .videos:hover > .video:not(:hover) {
+  .video:hover .thumbnail:not(:hover) {
     filter: blur(0);
   }
   .video:hover {
